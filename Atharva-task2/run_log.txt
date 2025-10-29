@@ -1,0 +1,17 @@
+[13:47:09] clientA: sending DHCP DISCOVER
+[13:47:09] DHCP: OFFER 10.0.0.10 to AA:AA:AA:AA:AA:A1
+[13:47:09] clientA: got OFFER 10.0.0.10, sending REQUEST
+[13:47:09] DHCP: ACK 10.0.0.10 to AA:AA:AA:AA:AA:A1
+[13:47:09] clientA: IP acquired -> 10.0.0.10
+[13:47:09] clientB: sending DHCP DISCOVER
+[13:47:09] DHCP: OFFER 10.0.0.11 to AA:AA:AA:AA:AA:B1
+[13:47:09] clientB: got OFFER 10.0.0.11, sending REQUEST
+[13:47:09] DHCP: ACK 10.0.0.11 to AA:AA:AA:AA:AA:B1
+[13:47:09] clientB: IP acquired -> 10.0.0.11
+[13:47:09] DNS: registered clientA.local -> 10.0.0.10
+[13:47:09] DNS: registered clientB.local -> 10.0.0.11
+[13:47:09] DNS: resolved clientB.local -> 10.0.0.11
+[13:47:09] clientA: pinging clientB.local [10.0.0.11] ... pong!
+[13:47:09] DNS: resolved clientA.local -> 10.0.0.10
+[13:47:09] clientB: pinging clientA.local [10.0.0.10] ... pong!
+[13:47:09] Simulation complete.
